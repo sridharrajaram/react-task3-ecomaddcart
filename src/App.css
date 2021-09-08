@@ -1,0 +1,37 @@
+.addcartbtn{
+    width:100px;
+    height:30px;
+    border: 1px solid black;
+    border-radius:4px;
+    background-color:orangered;
+}
+
+.addcartbtn:hover{    
+    background-color:yellowgreen;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.cart-items-number .form-control {
+    max-width: 30px;
+    text-align: center;
+    padding: 0px;
+    height: 30px;
+    border: none !important;
+    background: transparent;
+    color: #5d6671;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 0.11rem .5rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    border-radius: 1rem;
+}
+
+.cartsection{
+    display:flex;
+    justify-content: space-around;
+}
